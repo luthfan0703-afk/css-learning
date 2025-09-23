@@ -1,0 +1,11 @@
+body {
+    background-color: aliceblue;    
+}
+section {
+    background-color: skyblue;
+    align-content: center;
+}
+ footer {
+    background-color: skyblue;
+    justify-items: center;
+}

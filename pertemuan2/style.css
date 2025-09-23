@@ -1,0 +1,15 @@
+.no1 {
+    background-color: black;
+    justify-items: center;
+    padding: 25px;
+}
+.no1 a {
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+}
+.no2 a {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}

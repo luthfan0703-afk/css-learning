@@ -1,0 +1,16 @@
+header {
+  background-color: lightgray;
+  padding: 10px;
+}
+.no2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-right: 10px;
+  margin: 10px;
+}
+.no2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
