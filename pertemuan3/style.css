@@ -1,0 +1,41 @@
+header a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 100px;
+    
+}
+h1 {
+    background-color: rebeccapurple;
+}
+#hero-section {
+    background-color: blue;
+    padding: 4px 0 50px 0;
+    text-align: center;
+}
+#client-section h1{
+    background-color: grey;
+    color: lightseagreen;
+    text-align: center;
+}
+.parent {
+    background-color: darkblue;
+    color: lightskyblue;
+    text-align: center;
+    padding-right: 100px;
+}
+.child {
+    background-color: lightcoral;
+}
+.child2 {
+    background-color: lightslategray;
+}
