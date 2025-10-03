@@ -34,6 +34,10 @@ body {
   padding: 20px;
   margin: 0 4px;
 }
+.div-sec1 a {
+  text-decoration: none;
+  color: black;
+}
 .div-sec2 {
   background-color: rgba(235, 234, 234, 1);
   text-align: center;
