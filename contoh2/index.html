@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Layout Clone</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #eaeaea;
+    }
+
+    header {
+      background-color: #232f3e;
+      color: white;
+      padding: 16px;
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .top-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .top-box {
+      background-color: #ffffff;
+      padding: 24px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .promo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .promo-box {
+      background-color: #ffffff;
+      padding: 40px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    .single-box {
+      background-color: #ffffff;
+      padding: 24px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      margin-bottom: 24px;
+    }
+
+    .history-section {
+      margin-bottom: 40px;
+    }
+
+    .history-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .history-box {
+      background-color: #ffffff;
+      padding: 24px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #232f3e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Header</header>
+
+  <div class="container">
+
+    <div class="top-grid">
+      <div class="top-box">Keep shopping for</div>
+      <div class="top-box">Pickup where u left</div>
+      <div class="top-box">Buy again</div>
+      <div class="top-box">Become seller</div>
+    </div>
+
+    <div class="promo-grid">
+      <div class="promo-box">Prime Video Advertise</div>
+      <div class="promo-box">Promo Box</div>
+    </div>
+
+    <div class="section-title">Offers</div>
+    <div class="single-box">Special Offers</div>
+
+    <div class="section-title">Deal of theday</div>
+    <div class="single-box">🔥 Big Deal Today</div>
+
+    <div class="history-section">
+      <div class="section-title">Your Browsing history</div>
+      <div class="history-grid">
+        <div class="history-box">Item 1</div>
+        <div class="history-box">Item 2</div>
+        <div class="history-box">Item 3</div>
+        <div class="history-box">Item 4</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>Amazon</footer>
+
+</body>
+</html>
