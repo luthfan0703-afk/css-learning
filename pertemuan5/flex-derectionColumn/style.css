@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  /* default dari flex-derection adalah row */
+  flex-direction: column;
+  /* yang di atas ini adalah contoh dari column*/
+  background-color: aqua;
+  align-items: center;
+}
+.box1 {
+  background-color: skyblue;
+}
+.box2 {
+  background-color: lightblue;
+}

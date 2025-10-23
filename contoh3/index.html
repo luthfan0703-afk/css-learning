@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forgot Password</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      margin: 0;
+      background-color: #f0f2f5;
+      display: flex;
+      height: 100vh;
+    }
+    .wrapper {
+      display: flex;
+      flex: 1;
+      max-width: 1200px;
+      margin: auto;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .left {
+      flex: 1;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .left a {
+      color: #007bff;
+      text-decoration: none;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+    .left h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .left p {
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .left input {
+      padding: 14px;
+      font-size: 16px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .left button {
+      padding: 14px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .social {
+      margin-top: 40px;
+      text-align: center;
+    }
+    .social span {
+      display: block;
+      margin-bottom: 12px;
+      color: #888;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+    }
+    .icons img {
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .icons img:hover {
+      transform: scale(1.1);
+    }
+    .right {
+      flex: 1;
+      background: url('https://cdn.dribbble.com/users/2131993/screenshots/16052804/media/3e5f5e7e3a4d2b5e7e8c2f7d9f3a2e5e.png') center/cover no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left">
+      <a href="#">← Back to login</a>
+      <h2>Forgot your password?</h2>
+      <p>Don't worry, happens to all of us. Enter your email below to recover your password</p>
+      <input type="email" placeholder="john.doe@gmail.com" />
+      <button>Submit</button>
+      <div class="social">
+        <span>Or login with</span>
+        <div class="icons">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+          <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Google" />
+          <img src="https://cdn-icons-png.flaticon.com/512/831/831276.png" alt="Apple" />
+        </div>
+      </div>
+    </div>
+    <div class="right"></div>
+  </div>
+</body>
+</html>

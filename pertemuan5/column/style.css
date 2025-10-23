@@ -1,0 +1,34 @@
+.container {
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end ;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container3 {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box4 {
+    background-color: lightcyan;
+}
+.box5 {
+    background-color: lightgray;
+}
+/* browser dengan lebar 391 ke atas, akan terapkan style ini */
+
+@media (min-width: 391px) {
+    .container3 {
+        background-color: lightgrey;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

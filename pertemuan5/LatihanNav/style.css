@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: wheat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+}
+.logo {
+  color: RGBA(250, 110, 0, 1);
+  color: linear-gradient(
+    90deg,
+    rgba(250, 110, 0, 1) 50%,
+    rgba(230, 0, 38, 1) 100%
+  );
+}
+.nav-bar {
+  display: none;
+}
+.btn {
+    display: none;
+}
+
+@media (min-width: 391px) {
+  .icon-bar {
+    display: none;
+  }
+  .nav-bar {
+    display: block;
+  }
+  .nav-bar ul {
+    background-color: wheat;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  .home  {
+    color: RGBA(250, 110, 0, 1);
+    color: linear-gradient(
+      90deg,
+      rgba(250, 110, 0, 1) 50%,
+      rgba(230, 0, 38, 1) 100%
+    );
+  }
+  .nav-bar a {
+    text-decoration: none;
+    color: black;
+  }
+  .btn a {
+    text-decoration: none;
+    color: black;
+  }
+  .btn {
+    background-color: orange;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+  }
+}

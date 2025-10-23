@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+body {
+    background: fixed;
+}
+h2 {
+    color: darkcyan;
+    font-weight: bold;
+}
+.teks-tebal {
+    font-weight: bold;
+}
+.teks-miring {
+    font-style: italic;
+}
+hr {
+    border: 1px solid darkcyan;
+}
+.teks-besar {
+    font-size: xx-large;
+    color: red;
+    padding: 30px;
+}
+.teks-kecil {
+    font-size: x-small;
+    color: grey;
+}
+.garis-bawah {
+    text-decoration: underline;
+}
+.garis-atas {
+    text-decoration: overline;
+}
+.coret {
+    text-decoration: line-through;
+}
+.rata-tengah {
+    text-align: center;
+}
+.rata-kanan {
+    text-align: right;
+}
+.huruf-besar {
+    text-transform: uppercase;
+}
+.huruf-kecil {
+    text-transform: lowercase;
+}
+.huruf-campur {
+    text-transform: capitalize;
+}
+.spasi-huruf {
+    letter-spacing: 15px;
+}
+.spasi-kata {
+    word-spacing: 15px;
+}
