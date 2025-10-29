@@ -1,0 +1,56 @@
+body {
+    background-color: skyblue;
+    height: 100vh;
+}
+.card-one {
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+    position: static; /* default position */
+}
+.card-two {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.card-three {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    position: absolute;
+    right: 5px;
+}
+hr {
+    margin-top: 1000px !important;
+}
+.box-one {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    position: relative;
+}
+.box-two {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    position: absolute; 
+    right: 5px;
+}
+.fix {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    position: fixed;
+    left: 50%;
+    top: 20px;
+}
+.nav-bar {
+    width: 100vw;
+    height: 70px;
+    background-color: lightslategrey;
+    position: sticky;
+    top: 0;
+}

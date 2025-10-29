@@ -1,0 +1,24 @@
+p {
+  font-family: "Arial", sans-serif; /* Jenis font */
+  font-size: 16px; /* Ukuran font */
+  font-weight: bold; /* Ketebalan font */
+  font-style: italic; /* Gaya font miring */
+  line-height: 1.5; /* Jarak antar baris */
+  letter-spacing: 0.5px; /* Spasi antar huruf */
+  word-spacing: 2px; /* Spasi antar kata */
+}
+p {
+  text-align: center; /* Posisi teks: left, right, center, justify */
+  text-decoration: underline; /* Garis bawah, overline, line-through */
+  text-transform: uppercase; /* Kapitalisasi: uppercase, lowercase, capitalize */
+  text-indent: 30px; /* Indentasi baris pertama */
+}
+p {
+  color: #333; /* Warna teks */
+  background-color: #f9f9f9; /* Warna latar belakang teks */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan teks */
+}
+p {
+  direction: rtl; /* Arah teks: ltr (default), rtl */
+  writing-mode: vertical-rl; /* Mode penulisan: horizontal-tb, vertical-rl */
+}

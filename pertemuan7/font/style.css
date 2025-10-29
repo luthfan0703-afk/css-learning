@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'blackflag';
+    src: url('./assets/blackflag/BlackFlag.ttf');
+}
+
+p {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'blackflag' , 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
