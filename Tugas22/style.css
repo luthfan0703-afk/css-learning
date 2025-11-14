@@ -1,0 +1,48 @@
+.border1 {
+  border: 2px solid black;
+}
+
+.border2 {
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+.border3 {
+  border: 2px dashed red;
+}
+.border4 {
+  border: 2px dotted purple;
+}
+.border5 {
+  border: 2px double green;
+}
+.border6 {
+  border: 2px groove purple;
+}
+.border7 {
+  border: 2px inset brown;
+}
+.border8 {
+  border: 2px outset blue;
+}
+.border9 {
+  border: 2px ridge red;
+}
+.border10 {
+  border-top: 2px solid red;
+  border-left: 2px solid yellow;
+  border-right: 2px solid lightblue;
+  border-bottom: 2px solid green;
+}
+.border11 {
+  border: 2px solid;
+  border-image: linear-gradient(
+      90deg,
+      rgba(108, 180, 204, 1) 8%,
+      rgba(107, 138, 185, 1) 31%,
+      rgba(105, 165, 114, 1) 42%,
+      rgba(180, 182, 58, 1) 50%,
+      rgba(204, 161, 33, 1) 58%,
+      rgba(224, 27, 27, 1) 78%
+    )
+    1;
+}
