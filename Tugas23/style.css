@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(./Background\ Doodle.png);
+  color: #222;
+}
+
+.navbar {
+  background: #ff8800;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-weight: 700;
+  line-height: 20px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.hero {
+  background-image: url("https://i.imgur.com/DQZ0QkH.png"); /* pattern */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.orange {
+  color: #ff8800;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff8800;
+  color: white;
+  margin-top: 25px;
+  padding: 12px 22px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero-img img {
+  width: 300px;
+}
+
+.trusted {
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.trusted h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.logos {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.logos img {
+  width: 55px;
+  opacity: 0.85;
+}
